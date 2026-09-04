@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(#2ED9C5, #093a72);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixa o gradiente na tela inteira */
+    min-height: 100vh;
+    margin: 0;
+}
+
+hr {
+    border:none ;
+}
+
+.entrar,
+.cadastro,
+.lista {
+    border: 0.1px solid rgba(225, 225, 225, 0.5);
+    border-radius: 15px;
+    padding: 40px;
+    margin: 40px;
+    border-width: 10px;
+    width: 50%;
+    
+}
+
+
+#entrar,
+#cadastro,
+#lista {
+    border: 2px solid rgba(225, 225, 225, 0.5);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px;
+    border-width: 10px;
+    text-align: center;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.botao{
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
